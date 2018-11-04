@@ -15,10 +15,8 @@ public class JvmTest {
 
         long maxMemory = Runtime.getRuntime().maxMemory();
         System.out.println("jvm内存总空间：" + maxMemory/1024/1024 + "MB");
-
         long totalMemory = Runtime.getRuntime().totalMemory();
         System.out.println("jvm内存初始值：" + totalMemory/1024/1024 + "MB");
-
         long freeMemory = Runtime.getRuntime().freeMemory();
         System.out.println("jvm内存剩余空间：" + freeMemory/1024/1024 + "MB");
     }
