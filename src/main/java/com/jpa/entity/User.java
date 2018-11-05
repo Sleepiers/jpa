@@ -4,6 +4,7 @@ import lombok.Data;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.Date;
 
 /**
  * @user zzw
@@ -17,11 +18,14 @@ public class User implements Serializable {
 
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
-    private Integer id;
+    public Integer id;
 
-    private String name;
+    public String name;
 
-    private String sex;
+    public String sex;
 
-    private Integer age;
+    public Integer age;
+
+    @Column(name="update_time")
+    public Date updateTime;
 }
