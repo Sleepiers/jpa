@@ -28,4 +28,8 @@ public class User implements Serializable {
 
     @Column(name="update_time")
     public Date updateTime;
+
+    //加Transient注解代表这个字段只在Java中出现，不在数据库层面提现
+    @Transient
+    public String beizu;
 }
