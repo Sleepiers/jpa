@@ -1,0 +1,11 @@
+#person:
+#  lastName: zhangshan
+#  age: 20
+#  isSingle: true
+#  maps: {k1: v1,k2: wer}
+#  user:
+#    id: 12
+#    name: zzw
+#    sex: 男
+#    age: 100
+#    updateTime: 2018/11/05
