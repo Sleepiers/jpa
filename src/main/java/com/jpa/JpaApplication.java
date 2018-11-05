@@ -5,8 +5,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
  * springboot启动类
+ * @ImportResource(locations = {"classpath:beans.xml"})
+ * 加载xml加载配置文件
  */
-
+//@ImportResource(locations = {"classpath:beans.xml"})
 @SpringBootApplication
 public class JpaApplication {
 
